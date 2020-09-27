@@ -1,0 +1,56 @@
+/* Now, Lets Add some STYLE  */
+
+/* What needs to be edited */
+h1 {
+    /* The background of just header */
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+body {
+    /* Background of just body */
+    background-color: #D2B48C;
+
+}
+
+#introduction {
+    /* ID to allow paratmeters to modify only the text in this section */
+    text-align: center;
+}
+
+#hero {
+    /* ID to allow paratmeters to modify only the text in this section */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+button {
+    /* formatting of buttons */
+    /* margin and padding give the spacing between and around the letters in the button */
+    margin: 15px;
+    padding: 10px 12px;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid red;
+    text-transform: uppercase;
+    /* font color is simply 'color' : */
+    color: white;
+    outline: none
+
+}
+
+button:hover {
+    /* what happens when the mouse hovers over "Next" buttons */
+    /* deay in seconds 's' for transition between colors */
+    transition: 0.3s;  
+    background-color: blue;
+    color:  white
+}
