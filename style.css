@@ -10,6 +10,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+
+}
+
 body {
     /* Background of just body */
     background-color: #D2B48C;
@@ -21,15 +28,27 @@ body {
     text-align: center;
 }
 
+#life {
+    text-align: right;
+}
+
 #hero {
     /* ID to allow paratmeters to modify only the text in this section */
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-
 }
+img {
+    height: 350px;
+}
+
+form {
+
+    font-size: 25px;
+}
+
+
 
 button {
     /* formatting of buttons */
